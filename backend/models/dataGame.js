@@ -2,7 +2,7 @@ const { Timestamp } = require('mongodb');
 const mongoose = require('mongoose');
 
 
-const DataGameSchema = mongoose.Schema({                        //definir la estructura de un modelo de Mongoose
+const DataGameSchema = mongoose.Schema({                        //definir la estructura de un modelo de db de Mongoose
     Ganancia:{
         type: Number,
         required: true,
